@@ -10,3 +10,9 @@
 /*layouts import*/
 @import "layouts/_header.css";
 @import "layouts/_leftsidebar.css";
+@import "layouts/_bodycontent.css";
+
+
+/*mixins*/
+@import "mixins/_icons.css";
+@import "mixins/_typicons.css";

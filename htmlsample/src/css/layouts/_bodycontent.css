@@ -1,0 +1,74 @@
+
+.card-box {
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #333;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+  height: 285px;
+}
+
+
+.card-box-painted {
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #008E8A;
+  height: 285px;
+
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+}
+
+
+
+.btn {
+  border-radius: 3px;
+  outline: none !important;
+  
+
+ 
+}
+
+.btn-white{
+	position: absolute;
+  background: #fff;
+  color:#008E8A;
+  bottom:-80px;
+}
+
+.btn-dark{
+  color:#008E8A;
+  background:#1F1F25;
+  position: absolute;
+   bottom:40px;
+}
+.btn-md {
+  padding: 8px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Character/Marni 4 */
+.background-girl{
+  position: absolute;
+left: 40.01%;
+right: 27.62%;
+top: -0.4%;
+bottom: -80.00%;
+
+background: url("../../images/player.svg");
+
+}
