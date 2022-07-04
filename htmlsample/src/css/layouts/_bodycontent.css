@@ -64,41 +64,23 @@
 }
 
 
-
-
-
-
-
-
-
-
 /* Character/Marni 4 */
 .background-girl{
   position: absolute;
   left: 40.01%;
- right: 27.62%;
- top: -0.4%;
- bottom: -80.00%;
-
- background: url("../../images/player.svg");
-
+  right: 27.62%;
+  top: -0.4%;
+  bottom: -80.00%;
+  background: url("../../images/player.svg");
 }
 
-
 .football{
-
-
-position: absolute;
-width: 76px;
-height: 78px;
-
-left: 89.01%;
-
-top: 15.4%;
-
-
-background: url("../../images/ball.svg");
-
+ position: absolute;
+ width: 76px;
+ height: 78px;
+ left: 89.01%;
+ top: 15.4%;
+ background: url("../../images/ball.svg");
 }
 
 /*lets show some flex boxes in action*/
@@ -109,26 +91,78 @@ background: url("../../images/ball.svg");
   justify-content: space-between;
 }
 
-
 .two-colsets{
-	display: flex;
-	flex-direction:row;
+ display: flex;
+ flex-direction:row;
 	
 }
 
 .list-columnset{
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
 
 }
 
 .right{
-	float:right;
+ float:right;
 }
 
 .margin-space{
-	margin:1px;
-	margin-left:5px;
+ margin:1px;
+ margin-left:5px;
+}
+
+
+
+/*check box switcher*/
+.switcher {
+  position: relative;
+  display: inline-block;
+  width: 41px;
+  height: 20px;
+}
+
+.switcher input.switch-itch {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #dedede;
+  border-radius: 40px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: #fff;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input.switch-itch:checked + .slider {
+  background: green;
+}
+
+input.switch-itch:checked + .slider:before {
+  -webkit-transform: translateX(30px);
+  -moz-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+input.switch-itch:focus + .slider {
 }
