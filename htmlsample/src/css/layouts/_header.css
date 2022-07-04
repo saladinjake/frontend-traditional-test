@@ -54,16 +54,11 @@
 .dropdown-menu-lg .list-group {
   margin-bottom: 0px;
 }
-.dropdown-menu-lg .list-group-item {
-  border: none;
-  padding: 10px 20px;
-}
-.dropdown-menu-lg .media-heading {
-  margin-bottom: 0;
-}
-.dropdown-menu-lg .media-body p {
-  color: #fff;
-}
+
+
+
+
+
 
 .profile img {
   border: 2px solid #edf0f0;
