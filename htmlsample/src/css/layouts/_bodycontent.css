@@ -135,7 +135,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #dedede;
+  background: #333;
   border-radius: 40px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -165,4 +165,51 @@ input.switch-itch:checked + .slider:before {
 }
 
 input.switch-itch:focus + .slider {
+}
+
+
+
+/* Badge */
+.badge {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 1px;
+  background-color: #7e57c2;
+  border-radius:none;
+}
+.badge-xs {
+  font-size: 9px;
+}
+.badge-xs,
+.badge-sm {
+  -webkit-transform: translate(0, -2px);
+  -ms-transform: translate(0, -2px);
+  -o-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+}
+.badge-primary {
+  background-color: #5d9cec;
+}
+.badge-success {
+  background-color: green;
+}
+.badge-info {
+  background-color: blue;
+}
+.badge-warning {
+  background-color: #ffbd4a;
+}
+.badge-danger {
+  background-color: #f05050;
+}
+.badge-purple {
+  background-color: #7266ba;
+}
+.badge-pink {
+  background-color: #fb6d9d;
+}
+.badge-inverse {
+  background-color: #4c5667;
 }
