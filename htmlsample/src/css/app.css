@@ -11,7 +11,7 @@
 @import "layouts/_header.css";
 @import "layouts/_leftsidebar.css";
 @import "layouts/_bodycontent.css";
-
+@import "layouts/_rightsidebar.css";
 
 /*mixins*/
 @import "mixins/_icons.css";
