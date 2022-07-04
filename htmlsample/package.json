@@ -30,7 +30,6 @@
   },
   "scripts": {
     "build": "webpack --mode=development",
-    "watch": "webpack --mode=development --watch",
     "start:dev": "webpack-dev-server --config ./webpack.config.dev.js --open --hot --port 4001",
     "bundle": "npm install && npm run watch",
     "start": "cross-env NODE_ENV=production webpack --mode=production",
