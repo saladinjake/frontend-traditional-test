@@ -6,7 +6,7 @@ module.exports = {
   entry: ['@babel/polyfill/noConflict',
    './src/index.js'],
   output: {
-    path: `${__dirname}/dist`,
+    path: `${__dirname}/public`,
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -84,12 +84,12 @@ module.exports = {
      new CopyWebpackPlugin([
       {
         from: `${__dirname}/src/images`,
-        to:`${__dirname}/dist/images`,
+        to:`${__dirname}/public/images`,
       },
 
       {
         from: `${__dirname}/src/css`,
-        to:`${__dirname}/dist/css`,
+        to:`${__dirname}/public/css`,
       },
       
      
