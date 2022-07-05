@@ -48,7 +48,7 @@ const RightSide = () => {
 
 
 
-                  <table className="table-calendar" id="calendar" data-lang="en">
+                  <table style={{padding:"20px", margin:"-10px"}} className="table-calendar" id="calendar" data-lang="en">
                     <thead id="thead-month"></thead>
                     <tbody id="calendar-body"></tbody>
                   </table>
