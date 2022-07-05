@@ -67,7 +67,7 @@
 /* Character/Marni 4 */
 .background-girl{
   position: absolute;
-  left: 30.01%;
+  left: 40.01%;
   right: 27.62%;
   top: -20px;
   bottom: -80.00%;
@@ -80,12 +80,10 @@
  position: absolute;
  width: 76px;
  height: 78px;
- left: 100.01%;
+ left: 91.01%;
  top: 12.9%;
-
  background: url("../../images/ball.svg");
 }
-
 /*lets show some flex boxes in action*/
 .main-flex{
   display:flex;
