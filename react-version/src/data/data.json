@@ -1,0 +1,30 @@
+[
+  {
+   "name":"Martins Black",
+   "role":"coach",
+   "profile":"images/saladin.jpg"
+  },
+  {
+    "name":"Jane Cooper",
+   "role":"manager",
+   "profile":"images/saladin.jpg"
+  },
+
+  {
+    "name":"Jacob Gate",
+   "role":"player",
+   "profile":"images/saladin.jpg"
+  },
+
+  {
+    "name":"Albert Cox",
+   "role":"player",
+   "profile":"images/saladin.jpg"
+  },
+
+  {
+    "name":"Saladin Jake",
+   "role":"player",
+   "profile":"images/saladin.jpg"
+  }
+]
