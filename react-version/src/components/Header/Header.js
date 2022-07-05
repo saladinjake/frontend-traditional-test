@@ -5,16 +5,16 @@ const Logo = ({title}) => {
   const titleA = data[0];
   const titleB = data[1];
   return (
-    <div class="topbar-left">
-    <div class="text-center">
+    <div className="topbar-left">
+    <div className="text-center">
       <p>
-        <a href="" class="logo">
+        <a href="" className="logo">
           {' '}
           <span>{titleA}</span>{' '}
         </a>
       </p>
       <p>
-        <a href="" class="logo">
+        <a href="" className="logo">
           {' '}
           <span>{titleB}</span>{' '}
         </a>
@@ -25,10 +25,10 @@ const Logo = ({title}) => {
 
 const SearchBox = () =>{
   return ( 
-    <form role="search" class="navbar-left search-api pull-left hidden-xs">
-        <input type="text" placeholder="Search" class="form-control" />
+    <form role="search" className="navbar-left search-api pull-left hidden-xs">
+        <input type="text" placeholder="Search" className="form-control" />
         <a href="">
-          <i class="fa fa-search"></i>
+          <i className="fa fa-search"></i>
         </a>
       </form>
       )
@@ -39,26 +39,26 @@ const SearchBox = () =>{
 const Navigations = ({ date}) => {
   const { user } = useGlobalContext();
   return (
-      <div class="container">
-        <ul class="nav navbar-nav navbar-right pull-right">
-          <li class="dropdown top-menu-item-xs">
-            <a href="" class="text-custom header-title  hidden-xs">
+      <div className="container">
+        <ul className="nav navbar-nav navbar-right pull-right">
+          <li className="dropdown top-menu-item-xs">
+            <a href="" className="text-custom header-title  hidden-xs">
              {date}
             </a>
           </li>
 
          <SearchBox/>
 
-          <li class="dropdown top-menu-item-xs">
-            <div class="two-colsets">
-              <div class="list-columnset" style={{
+          <li className="dropdown top-menu-item-xs">
+            <div className="two-colsets">
+              <div className="list-columnset" style={{
                 marginRight:"4px"
               }}>
-                <p class="margin-space right-text">{user?.name}</p>
-                <p class="margin-space right-text">{user?.role}</p>
+                <p className="margin-space right-text">{user?.name}</p>
+                <p className="margin-space right-text">{user?.role}</p>
               </div>
-              <a href="" class=" profile  waves-light ">
-                <img src={user?.profileImage} alt="user-img" class="img-circle" />{' '}
+              <a href="" className=" profile  waves-light ">
+                <img src={user?.profileImage} alt="user-img" className="img-circle" />{' '}
               </a>
             </div>
           </li>
@@ -82,11 +82,11 @@ const Header = () => {
     return todaysDate;
   }
   return (
-    <div class="topbar" style={{
+    <div className="topbar" style={{
        marginTop:"-4px"
     }}>
       <Logo title={"Sport Time"}/>
-      <div class="navbar navbar-default" role="navigation">
+      <div className="navbar navbar-default" role="navigation">
         <Navigations
            date={dateFormat()}
            
