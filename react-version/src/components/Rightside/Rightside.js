@@ -49,7 +49,7 @@ const RightSide = () => {
                   
 
                   <Events
-                    title="Team Meeting"
+                    title="Medical checks"
                     brief="BD & Treatment Centre"
                     time="4:15 pm - 6:00 pm"
                     type="badge-info" />
@@ -62,18 +62,7 @@ const RightSide = () => {
                     type="badge-success" />
 
 
-                  <Events
-                    title="Team Meeting"
-                    brief="BD & Treatment Centre"
-                    time="4:15 pm - 6:00 pm"
-                    type="badge-info" />
-
-
-                  <Events
-                    title="Team Meeting"
-                    brief="BD & Treatment Centre"
-                    time="4:15 pm - 6:00 pm"
-                    type="badge-success" />
+                  
 
                 </div>
               </div>
