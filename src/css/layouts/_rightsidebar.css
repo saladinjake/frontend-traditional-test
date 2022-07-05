@@ -104,3 +104,8 @@ td,th, tr{
   
 
 }
+
+
+.fix-margin{
+    margin-top:-40px
+}
