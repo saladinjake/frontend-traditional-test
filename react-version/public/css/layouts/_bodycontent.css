@@ -1,6 +1,6 @@
 
 .card-box-no-fixed-height{
-	 padding: 20px;
+   padding: 20px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -47,7 +47,7 @@
 }
 
 .btn-white{
-	position: absolute;
+  position: absolute;
   background: #fff;
   color:#008E8A;
   bottom:-80px;
@@ -84,18 +84,20 @@
  top: 12.9%;
  background: url("../../images/ball.svg");
 }
+
 /*lets show some flex boxes in action*/
 .main-flex{
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding:5px;
 }
 
 .two-colsets{
  display: flex;
  flex-direction:row;
-	
+   padding:5px;
 }
 
 .list-columnset{
@@ -103,11 +105,13 @@
  flex-direction: column;
  justify-content: center;
  align-content: center;
+  padding:5px;
 
 }
 
 .right{
  float:right;
+ color:#777;
 }
 
 .margin-space{
@@ -208,10 +212,10 @@ input.switch-itch:focus + .slider {
 
 
 .right-text{
-	text-align:right;
+  text-align:right;
 }
 .main-flex p a {
-	color:#008E8A;
+  color:#008E8A;
 }
 
 .bg-darkbrown{
