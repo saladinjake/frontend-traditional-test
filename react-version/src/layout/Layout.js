@@ -8,8 +8,8 @@ export const Layout = ({ children }) => {
     <Container>
       <Header />
       <Leftbar />
-      <div className="content-page">
-        <div className="content">{children}</div>
+      <div className="content-page" >
+        <div className="content" style={{marginLeft:"-15px"}}>{children}</div>
       </div>
     </Container>
   )

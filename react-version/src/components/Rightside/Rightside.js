@@ -1,4 +1,5 @@
-
+import React , { useEffect } from "react"
+import CalendarModule from "../../helpers/CalendarModule"
 
 const CallToAction = ({title}) =>(
  <div className="main-flex">
@@ -22,6 +23,10 @@ const Events = ({title, brief, time, type}) => {
 )
 }
 const RightSide = () => {
+
+	useEffect(()=>{
+		CalendarModule()
+	},[])
 	return (
 
      <div className="row">

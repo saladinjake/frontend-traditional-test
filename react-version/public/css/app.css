@@ -12,7 +12,7 @@
 @import "layouts/_leftsidebar.css";
 @import "layouts/_bodycontent.css";
 @import "layouts/_rightsidebar.css";
-@import "layouts/_chart.css";
+
 
 /*mixins*/
 @import "mixins/_icons.css";

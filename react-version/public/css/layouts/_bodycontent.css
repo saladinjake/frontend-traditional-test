@@ -67,7 +67,7 @@
 /* Character/Marni 4 */
 .background-girl{
   position: absolute;
-  left: 40.01%;
+  left: 30.01%;
   right: 27.62%;
   top: -20px;
   bottom: -80.00%;
@@ -80,8 +80,9 @@
  position: absolute;
  width: 76px;
  height: 78px;
- left: 91.01%;
+ left: 100.01%;
  top: 12.9%;
+
  background: url("../../images/ball.svg");
 }
 
