@@ -4,7 +4,10 @@
 	<title></title>
 	
 <link rel="stylesheet" type="text/css" href="./css/app.css">
-
+<script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart','line']});  
+      </script>
 </head>
 <body class="fixed-left">
    <!--start design -->
@@ -325,36 +328,10 @@
                                      <p class="padded"><a href="#">Browse more</a></p>
 
 
+                                       <div id = "container" style = "width: 350px; height: 400px; margin: 0 auto;background:#333">
+      </div>
 
-
-							<div class="line-chart-block block">
-							     <div class="line-chart">
-							       <div class='draw-graph'>
-							       <ul class='eje-y'>
-							       	<li data-ejeY='10'></li>
-							       	<li data-ejeY='7.5'></li>
-							         <li data-ejeY='5'></li>
-							         <li data-ejeY='2.5'></li>
-							         <li data-ejeY='1'></li>
-							         <li data-ejeY='0'></li>
-							       </ul>
-							       <ul class='eje-x'>
-							         <li><span class="dot2"></span>Training sessions</li>
-							         <li><span class="dot1"></span>Team meetings</li>
-							         <li><span class="dot3"></span>Medical checks</li>
-							       </ul>
-
-							       <svg width="500" id="svg-1" height="90"/>
-							        <svg width="200" id="svg-2" height="140"/>
-							        <svg width="100" id="svg-3" height="70"/>
-							       
-
-							       </div>
-							       
-							     </div>
-
-							</div>
-
+							
                                       
                                    </div>
                                  

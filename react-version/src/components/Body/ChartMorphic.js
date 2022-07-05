@@ -27,7 +27,7 @@ const state = {
   datasets: [
     {
       //label: 'Training session',
-      labels: [0, 1, 2, 3, 4, 5],
+     // labels: [0, 1, 2, 3, 4, 5],
       fill: false,
       lineTension: 0.5,
       backgroundColor: 'red',

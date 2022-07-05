@@ -35,6 +35,11 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
+          <link rel="stylesheet" type="text/css" href="./css/app.css">
+<script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart','line']});  
+      </script>
         </Head>
         <body class="fixed-left">
           <div id="wrapper">

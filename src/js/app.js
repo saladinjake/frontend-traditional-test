@@ -1,33 +1,65 @@
 import CalendarModule from "./modules/Calendar"
 
+function drawChart() {
+            // Define the chart to be drawn.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Training sessions');
+            data.addColumn('number', 'Team meetings');
+            data.addColumn('number', 'Medical checks');
+            data.addColumn('number', 'More sample');
+            data.addColumn('number', 'More samples 2');
+            data.addRows([
+               ['',  7.0, 0.2, 0.9, 3.9],
+               ['',  6.9, 0.8, 0.6, 4.2],
+               ['',  9.5,  5.7, 3.5, 5.7],
+               ['',  1.5, 4.3, 8.4, 8.9],
+               ['',  0.2, 7.0, 5.5, 9.9],
+               ['',  1.5, 2.0, 7.0, 5.2],
+               
+               ['',  5.2, 4.8, 1.6, 7.0],
+               ['',  6.5, 4.1, 1.9, 6.6],
+               ['',  3.3, 2.1, 1.3, 4.2],
+               ['',  8.3, 4.1, 1.0, 0.3],
+               ['',  3.9,  1.6, 0.9, 6.6],
+               ['',  9.6,  2.5,  1.0, 0.8]
+            ]);
+            
+            // Set chart options
+            var options = {
+               hAxis: {
+                  title: ''
+               },
+               vAxis: {
+                  title: ''
+               },   
+               'width':350,
+               'height':400,
+                // Colors only the chart area, with opacity
+		      chartArea: {
+		        backgroundColor: {
+		          fill: '#333',
+		          fillOpacity: 0.1
+		        }
+		       },
+		       // Colors the entire chart area, simple version
+      // backgroundColor: '#FF0000',
+      // Colors the entire chart area, with opacity
+      backgroundColor: {
+        fill: '#333',
+        fillOpacity: 0.8
+      },
+               curveType: 'function'
+            };
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.LineChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         
 document.addEventListener("DOMContentLoaded", ()=>{
 	//Turn on the lights
    const Calendar = new CalendarModule();
   
+   google.charts.setOnLoadCallback(drawChart);
 
-const XMAX = 300;
-const YMAX = 100;
-
-const fillColors =["blue", "red", "purple","yellow"];
-
-for (let i = 1; i <= fillColors.length; i++){
-	// Create path instructions
-	const path = [];
-	for (let x = 0; x <= XMAX; x++) {
-	    const angle = (x / XMAX) * Math.PI * 2 ;  // angle = 0 -> 2π
-	    const y = Math.sin(angle) * (YMAX / 2) + (YMAX / 2) ;
-	    // M = move to, L = line to
-	    path.push((x == 0 ? 'M' : 'L') + x.toFixed(2) + ',' + y.toFixed(2));
-	}
-
-	// Create PATH element
-	const pathEl = document.createElementNS("http://www.w3.org/2000/svg", "path");
-	pathEl.setAttribute('d', path.join(' ') );
-	pathEl.style.stroke = fillColors[i];
-	pathEl.style.fill = 'none';
-
-	// Add it to svg element
-	document.querySelector('#svg-'+i).appendChild(pathEl);
-	  
- }
 })
