@@ -220,3 +220,7 @@ input.switch-itch:focus + .slider {
   padding:5px;
   border-radius:5px;margin:10px;
 }
+
+.padded{
+  margin-top:10px;
+}
