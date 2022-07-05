@@ -1,6 +1,6 @@
-import AfricanTheme from '../styles/base';
+import AfricanTheme from '../styles/base'
 
-import "../../public/css/app.css"
+import '../../public/css/app.css'
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -8,5 +8,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </AfricanTheme>
     </>
-  );
+  )
 }

@@ -1,19 +1,20 @@
-
-import { Layout } from '../layout/Layout';
-import { AppProvider } from "../context"
-import HomePage from "../components/Body/Body"
+import { Layout } from '../layout/Layout'
+import { AppProvider } from '../context'
+import HomePage from '../components/Body/Body'
 
 const Home = () => {
+
   return (
     <>
       <AppProvider>
         <Layout>
-           <HomePage/>
+          <HomePage 
+            pageTitle={"Dashboard"}
+          />
         </Layout>
       </AppProvider>
     </>
+  )
+}
 
-  );
-};
-
-export default Home;
+export default Home

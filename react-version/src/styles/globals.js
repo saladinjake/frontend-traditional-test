@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import { normalize } from 'styled-normalize';
+import { createGlobalStyle } from 'styled-components'
+import { normalize } from 'styled-normalize'
 
 const GlobalStyles = createGlobalStyle`
   ${normalize};
@@ -12,16 +12,16 @@ const GlobalStyles = createGlobalStyle`
   body {
   
 
-  font-family: ${props => props.theme.fonts.main};
+  font-family: ${(props) => props.theme.fonts.main};
   font-size: 1.6rem;
-  background: ${props => props.theme.colors.background1};
-  color: ${props => props.theme.colors.primary1};
+  background: ${(props) => props.theme.colors.background1};
+  color: ${(props) => props.theme.colors.primary1};
   cursor: default;
 }
 html {
   position: relative;
   min-height: 100%;
-  background:  ${props => props.theme.colors.background1};
+  background:  ${(props) => props.theme.colors.background1};
   scroll-behavior: smooth;
 }
 
@@ -32,8 +32,8 @@ h3,
 h4,
 h5,
 h6 {
-  color:  ${props => props.theme.colors.primary1};
-  font-family: ${props => props.theme.fonts.main};
+  color:  ${(props) => props.theme.colors.primary1};
+  font-family: ${(props) => props.theme.fonts.main};
   margin: 10px 0;
 }
 h1 {
@@ -84,7 +84,7 @@ b {
   height: 100%;
   overflow: hidden;
   width: 100%;
-  color:${props => props.theme.colors.primary1};
+  color:${(props) => props.theme.colors.primary1};
   background:#000;
 }
 .page {
@@ -107,7 +107,7 @@ b {
 }
 .page-header {
   border-bottom: 1px solid #DBDDDE;
-  color:${props => props.theme.colors.primary1};
+  color:${(props) => props.theme.colors.primary1};
 }
 .header-title {
   text-transform: uppercase;
@@ -116,7 +116,7 @@ b {
   letter-spacing: 0.04em;
   line-height: 16px;
   margin-bottom: 8px;
-  color:${props => props.theme.colors.primary1};
+  color:${(props) => props.theme.colors.primary1};
 }
 
 
@@ -185,6 +185,6 @@ b {
   padding-left: 10px;
   padding-right: 10px;
 }
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles
