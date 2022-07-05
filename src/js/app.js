@@ -51,7 +51,7 @@ function drawChartLines() {
 
 	// Instantiate and draw the chart.
 	var chart = new google.visualization.LineChart(document.getElementById('container'));
-chart.draw(data, options);
+    chart.draw(data, options);
 }
          
 document.addEventListener("DOMContentLoaded", ()=>{
