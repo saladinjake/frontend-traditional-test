@@ -1,6 +1,6 @@
 
 .card-box-no-fixed-height{
-	 padding: 20px;
+   padding: 20px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -47,7 +47,7 @@
 }
 
 .btn-white{
-	position: absolute;
+  position: absolute;
   background: #fff;
   color:#008E8A;
   bottom:-80px;
@@ -97,7 +97,7 @@
 .two-colsets{
  display: flex;
  flex-direction:row;
-	 padding:5px;
+  
 }
 
 .list-columnset{
@@ -105,7 +105,7 @@
  flex-direction: column;
  justify-content: center;
  align-content: center;
-  padding:5px;
+
 
 }
 
@@ -212,10 +212,10 @@ input.switch-itch:focus + .slider {
 
 
 .right-text{
-	text-align:right;
+  text-align:right;
 }
 .main-flex p a {
-	color:#008E8A;
+  color:#008E8A;
 }
 
 .bg-darkbrown{

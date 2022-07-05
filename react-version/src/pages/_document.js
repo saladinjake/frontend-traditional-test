@@ -39,7 +39,7 @@ export default class MyDocument extends Document {
 <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
 
         </Head>
-        <body class="fixed-left">
+        <body className="fixed-left">
           <div id="wrapper">
             <Main />
             <NextScript />
