@@ -92,13 +92,16 @@ td,th, tr{
   
 
 }
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   .container-calendar{
    
-    width:100%;
+    width:80%;
     overflow: auto;
     overflow-x:hidden;
-    margin-left:30px;
+    /*margin-left:30px;*/
+    margin:20px;
+    padding:10px;
+     margin-left:40px;
   }
 
   
