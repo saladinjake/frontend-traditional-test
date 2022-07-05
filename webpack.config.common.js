@@ -4,7 +4,7 @@ const Dotenv = require('dotenv-webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: ['@babel/polyfill/noConflict',
-   './src/js/app.js'],
+   './src/index.js'],
   output: {
     path: `${__dirname}/dist`,
     publicPath: '/',

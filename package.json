@@ -4,7 +4,6 @@
   "description": "test exercise",
   "author": "Saladin jake",
   "license": "ISC",
-
   "main": "app.js",
   "babel": {
     "env": {
@@ -25,18 +24,17 @@
       "@babel/plugin-proposal-throw-expressions",
       "@babel/plugin-syntax-dynamic-import",
       "@babel/plugin-transform-runtime"
-      
     ]
   },
   "scripts": {
-    "build": "webpack --mode=development",
+    "build": "webpack",
     "start:dev": "webpack-dev-server --config ./webpack.config.dev.js --open --hot --port 4001",
     "bundle": "npm install && npm run watch",
     "start": "cross-env NODE_ENV=production webpack --mode=production",
     "lint-sass": "sass-lint -v -q --format=compact",
-    "lint-js": "eslint --ext .js src/js/"
+    "lint-js": "eslint --ext .js src/js/",
+    "deploy": "gh-pages -d dist"
   },
-  
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.0.0-beta.51",
@@ -108,6 +106,7 @@
     "@types/webpack-dev-server": "^3.1.7"
   },
   "dependencies": {
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "gh-pages": "^4.0.0"
   }
 }

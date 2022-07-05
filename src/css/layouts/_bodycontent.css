@@ -69,17 +69,19 @@
   position: absolute;
   left: 40.01%;
   right: 27.62%;
-  top: -0.4%;
+  top: -20px;
   bottom: -80.00%;
   background: url("../../images/player.svg");
+  background-repeat: no-repeat;
+
 }
 
 .football{
  position: absolute;
  width: 76px;
  height: 78px;
- left: 89.01%;
- top: 15.4%;
+ left: 91.01%;
+ top: 12.9%;
  background: url("../../images/ball.svg");
 }
 
@@ -135,7 +137,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #333;
+  background: #777;
   border-radius: 40px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -204,12 +206,17 @@ input.switch-itch:focus + .slider {
 .badge-danger {
   background-color: #f05050;
 }
-.badge-purple {
-  background-color: #7266ba;
+
+
+.right-text{
+	text-align:right;
 }
-.badge-pink {
-  background-color: #fb6d9d;
+.main-flex p a {
+	color:#008E8A;
 }
-.badge-inverse {
-  background-color: #4c5667;
+
+.bg-darkbrown{
+  background:#333;
+  padding:5px;
+  border-radius:5px;margin:10px;
 }

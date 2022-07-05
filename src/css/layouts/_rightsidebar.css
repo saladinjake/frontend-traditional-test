@@ -82,3 +82,17 @@
 td,th, tr{
     color:#fff;
 }
+
+
+@media (max-width: 580px) {
+  .container-calendar{
+   
+    width:340px;
+    overflow: auto;
+    overflow-x:hidden;
+    margin-left:30px;
+  }
+
+  
+
+}

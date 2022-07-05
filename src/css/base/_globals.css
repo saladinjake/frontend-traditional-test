@@ -53,19 +53,7 @@ p {
 b {
   font-weight: 600;
 }
-a:hover {
-  outline: 0;
-  text-decoration: none;
-  color:#fff;
-}
-a:active {
-  outline: 0;
-  text-decoration: none;
-}
-a:focus {
-  outline: 0;
-  text-decoration: none;
-}
+
 .container {
   width: auto;
 }
@@ -95,6 +83,7 @@ a:focus {
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 7px;
+  margin-left:40px;
 }
 .page-title-alt {
   margin-bottom: 23px;

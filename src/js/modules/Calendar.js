@@ -67,7 +67,7 @@ function CalenderModule(){
 	                cell.setAttribute("data-year", year);
 	                cell.setAttribute("data-month_name", months[month]);
 	                cell.className = "date-picker";
-	                cell.innerHTML = "<span>" + date + "</span>";
+	                cell.innerHTML = "<span style='color:#fff'>" + date + "</span>";
 
 	                if ( date === today.getDate() && year === today.getFullYear() && month === today.getMonth() ) {
 	                    cell.className = "date-picker selected";

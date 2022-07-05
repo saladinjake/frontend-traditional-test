@@ -17,7 +17,9 @@
                 <!-- LOGO -->
                 <div class="topbar-left">
                     <div class="text-center">
-                        <a href="index.html" class="logo">     <span>Sport<i class=""></i>Time</span> </a>
+                        <p><a href="index.html" class="logo">     <span>Sport</span> </a><p>
+                        <p><a href="index.html" class="logo">     <span>Time</span> </a></p>
+
                        
                     </div>
                 </div>
@@ -32,23 +34,28 @@
 							</li>
 
 
-							<li class="dropdown top-menu-item-xs">    
-                   
-                        <div class="input-container">
-			<input id="name" class="input" type="text" pattern=".+" required />
-			<label class="label" for="name">icon search here</label>
-		</div>      
-                  </li>     
+							 <form role="search" class="navbar-left search-api pull-left hidden-xs">
+			                     <input type="text" placeholder="Search" class="form-control">
+			                     <a href=""><i class="fa fa-search"></i></a>
+			                </form>
 
 
 							 <li class="dropdown top-menu-item-xs">
-                                    <a href="" class="dropdown-toggle profile  waves-light" ><img src="images/saladin.jpg" alt="user-img" class="img-circle"> </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#"><i class="ti-user m-r-10 text-custom"></i> Profile</a></li>
+
+
+							 	<div class="two-colsets">
+							 		<div class="list-columnset">
+                                          	<p class="margin-space right-text">Eleanor Pena</p>
+                                          <p class="margin-space right-text">admin</p>
+                                          </div>
+                                          <a href="" class=" profile  waves-light " ><img src="images/saladin.jpg" alt="user-img" class="img-circle"> </a>
+                                          
                                         
-                                        <li class="divider"></li>
-                                        <li><a href="#"><i class="ti-power-off m-r-10 text-danger"></i> Logout</a></li>
-                                    </ul>
+                                      </div>
+                                     
+
+                                   
+                                
                                 </li>
                       </ul>
                 </div>
@@ -74,7 +81,10 @@
                     <div id="sidebar-menu" >
                         <ul >
 
-                            <li class="text-muted menu-title">Navigation</li>
+                           
+
+
+
 							
 							<li class="">
                                 <a href="" class="active"><i class="fa fa-home"></i> </a>
@@ -102,8 +112,8 @@
                                 
                             </li>
 
-                              <li class="has_sub bottom-reset">
-                                <a href="javascript:void(0);" class=""><i class="right fa fa-ellipsis-h"></i> </a>
+                              <li id="triggerButton" class="has_sub bottom-reset ">
+                                <a href="#" class=""><i class=" fa fa-ellipsis-h"></i> </a>
                                 
                             </li>
 
@@ -259,6 +269,20 @@
                                        <i class="right fa fa-ellipsis-h"></i>
                                   </div>
 
+                                       <div class="main-flex">
+                                      <div class="two-colsets">
+                                          <a href="" class=" profile  waves-light " ><img src="images/saladin.jpg" alt="user-img" class="img-circle"> </a>
+                                          <div class="list-columnset">
+                                          	<p class="margin-space">Saladin Jake</p>
+                                          <p class="margin-space">react developer</p>
+                                          </div>
+                                        
+                                      </div>
+                                     
+
+                                       <i class="right fa fa-ellipsis-h"></i>
+                                  </div>
+
                                     <div class="main-flex">
                                       <div class="two-colsets">
                                           <a href="" class=" profile  waves-light " ><img src="images/saladin.jpg" alt="user-img" class="img-circle"> </a>
@@ -293,8 +317,47 @@
                                   </div>
                                 </div>
                                 <div class="col-md-7 ">
-                                  <div class="card-box">
-                                  graphs
+                                  <div class="card-box-no-fixed-height">
+
+                                  	<div class="main-flex">
+                                    
+                                      <h4>Half Year Work Results</h4>
+                                     <p><a href="#">Browse more</a></p>
+
+
+
+
+							<div class="line-chart-block block">
+							     <div class="line-chart">
+							       <div class='draw-graph'>
+							       <ul class='eje-y'>
+							       	<li data-ejeY='10'></li>
+							       	<li data-ejeY='7.5'></li>
+							         <li data-ejeY='5'></li>
+							         <li data-ejeY='2.5'></li>
+							         <li data-ejeY='1'></li>
+							         <li data-ejeY='0'></li>
+							       </ul>
+							       <ul class='eje-x'>
+							         <li><span class="dot2"></span>Training sessions</li>
+							         <li><span class="dot1"></span>Team meetings</li>
+							         <li><span class="dot3"></span>Medical checks</li>
+							       </ul>
+
+							       <svg width="500" id="svg-1" height="90"/>
+							        <svg width="200" id="svg-2" height="140"/>
+							        <svg width="100" id="svg-3" height="70"/>
+							       
+
+							       </div>
+							       
+							     </div>
+
+							</div>
+
+                                      
+                                   </div>
+                                 
                                   </div>
                                 </div>
 
@@ -333,7 +396,7 @@
                                       
                                 </div>
 
-                                <div class="dynamic-listing">
+                                <div class="dynamic-listing bg-darkbrown">
                                    <div class="main-flex">
                                     
                                     <h4 class="badge badge-info">Team Meeting</h4>
@@ -347,7 +410,7 @@
 
 
 
-                                <div class="dynamic-listing">
+                                <div class="dynamic-listing bg-darkbrown">
                                    <div class="main-flex">
                                     
                                     <h4 class="badge badge-info">Team Meeting</h4>
@@ -360,7 +423,7 @@
                                 </div>
 
 
-                                <div class="dynamic-listing">
+                                <div class="dynamic-listing bg-darkbrown">
                                    <div class="main-flex">
                                     
                                     <h4 class="badge badge-success">Team Meeting</h4>
