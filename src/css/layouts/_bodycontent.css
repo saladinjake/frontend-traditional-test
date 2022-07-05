@@ -91,12 +91,13 @@
   flex-direction:row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding:5px;
 }
 
 .two-colsets{
  display: flex;
  flex-direction:row;
-	
+	 padding:5px;
 }
 
 .list-columnset{
@@ -104,11 +105,13 @@
  flex-direction: column;
  justify-content: center;
  align-content: center;
+  padding:5px;
 
 }
 
 .right{
  float:right;
+ color:#777;
 }
 
 .margin-space{
