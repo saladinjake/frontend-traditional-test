@@ -1,0 +1,226 @@
+
+.card-box-no-fixed-height{
+	 padding: 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #333;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+
+}
+.card-box {
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #333;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+  height: 285px;
+}
+
+
+.card-box-painted {
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #008E8A;
+  height: 285px;
+
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+}
+
+
+
+.btn {
+  border-radius: 3px;
+  outline: none !important;
+  
+
+ 
+}
+
+.btn-white{
+	position: absolute;
+  background: #fff;
+  color:#008E8A;
+  bottom:-80px;
+}
+
+.btn-dark{
+  color:#008E8A;
+  background:#1F1F25;
+  position: absolute;
+   bottom:40px;
+}
+.btn-md {
+  padding: 8px 16px;
+}
+
+
+/* Character/Marni 4 */
+.background-girl{
+  position: absolute;
+  left: 40.01%;
+  right: 27.62%;
+  top: -20px;
+  bottom: -80.00%;
+  background: url("../../images/player.svg");
+  background-repeat: no-repeat;
+
+}
+
+.football{
+ position: absolute;
+ width: 76px;
+ height: 78px;
+ left: 91.01%;
+ top: 12.9%;
+ background: url("../../images/ball.svg");
+}
+
+/*lets show some flex boxes in action*/
+.main-flex{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.two-colsets{
+ display: flex;
+ flex-direction:row;
+	
+}
+
+.list-columnset{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+
+}
+
+.right{
+ float:right;
+}
+
+.margin-space{
+ margin:1px;
+ margin-left:5px;
+}
+
+
+
+/*check box switcher*/
+.switcher {
+  position: relative;
+  display: inline-block;
+  width: 41px;
+  height: 20px;
+}
+
+.switcher input.switch-itch {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #777;
+  border-radius: 40px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: #fff;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input.switch-itch:checked + .slider {
+  background: green;
+}
+
+input.switch-itch:checked + .slider:before {
+  -webkit-transform: translateX(30px);
+  -moz-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+input.switch-itch:focus + .slider {
+}
+
+
+
+/* Badge */
+.badge {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 1px;
+  background-color: #7e57c2;
+  border-radius:1px;
+}
+.badge-xs {
+  font-size: 9px;
+}
+.badge-xs,
+.badge-sm {
+  -webkit-transform: translate(0, -2px);
+  -ms-transform: translate(0, -2px);
+  -o-transform: translate(0, -2px);
+  transform: translate(0, -2px);
+}
+.badge-primary {
+  background-color: #0d99ff;
+}
+.badge-success {
+  background-color: green;
+}
+.badge-info {
+  background-color: #0d99ff;
+}
+.badge-warning {
+  background-color: #ffbd4a;
+}
+.badge-danger {
+  background-color: #f05050;
+}
+
+
+.right-text{
+	text-align:right;
+}
+.main-flex p a {
+	color:#008E8A;
+}
+
+.bg-darkbrown{
+  background:#333;
+  padding:5px;
+  border-radius:5px;margin:10px;
+}
+
+.padded{
+  margin-top:10px;
+}

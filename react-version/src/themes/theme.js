@@ -7,8 +7,8 @@ export default {
     xl: 'screen and (max-width: 1280px)'
   },
   colors: {
-    primary1: "#000",
-    background1: "#0c0e1b",
+    primary1: "#fff",
+    background1: "#000",
     accent1: "hsl(34.5,97.6%,62.9%)",
     button: "#fff",
     background2: "#333",
