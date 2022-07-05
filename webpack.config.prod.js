@@ -13,11 +13,7 @@ module.exports = merge(common, {
   },
   plugins: [
   new Dotenv(),
-    new webpack.DefinePlugin({
-      'process.env': {
-        DEPLOY_FRONT_URL: JSON.stringify('https://somedeploylink.vercel.com'),
-       
-    }),
-    new OptimizeCSSAssetsPlugin({})
+    
+  new OptimizeCSSAssetsPlugin({})
   ]
 });
