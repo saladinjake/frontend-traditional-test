@@ -179,7 +179,7 @@ input.switch-itch:focus + .slider {
   font-size: 12px;
   margin-top: 1px;
   background-color: #7e57c2;
-  border-radius:none;
+  border-radius:1px;
 }
 .badge-xs {
   font-size: 9px;
@@ -192,13 +192,13 @@ input.switch-itch:focus + .slider {
   transform: translate(0, -2px);
 }
 .badge-primary {
-  background-color: #5d9cec;
+  background-color: #0d99ff;
 }
 .badge-success {
   background-color: green;
 }
 .badge-info {
-  background-color: blue;
+  background-color: #0d99ff;
 }
 .badge-warning {
   background-color: #ffbd4a;
