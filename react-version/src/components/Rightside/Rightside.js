@@ -32,12 +32,21 @@ const RightSide = () => {
      <div className="row">
               <div className="col-md-12 ">
                 <div className="container-calendar">
-                  <h3 id="monthAndYear"></h3>
+                 
 
                   <div className="button-container-calendar">
-                    <span id="previous">&#8249;</span>
-                    <span id="next">&#8250;</span>
+                    
+                  
+
+					    <div className="main-flex">
+					      <span id="previous">&#8249;</span>
+					      <h3 id="monthAndYear"></h3>
+					                   
+					       <span id="next">&#8250;</span>
+					    </div>
                   </div>
+
+
 
                   <table className="table-calendar" id="calendar" data-lang="en">
                     <thead id="thead-month"></thead>
