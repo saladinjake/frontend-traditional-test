@@ -15,7 +15,7 @@ const WelcomeMessage =() =>{
           {welcomeMsg}
         </p>
 
-        <button className="btn btn-md btn-white">+ Create event</button>
+        <button className="btn btn-md btn-white"><b>+ Create event</b></button>
       </div>
    
       <div className="col-md-6 background-girl">
@@ -55,7 +55,7 @@ const Reminders = () =>{
                     </div>
                   </div>
 
-                  <button className="btn btn-md btn-dark centered center">+ Add new</button>
+                  <button className="btn btn-md btn-dark centered center"><b>+ Add new</b></button>
                 </div>
               </div>
 

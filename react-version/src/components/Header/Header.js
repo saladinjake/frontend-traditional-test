@@ -5,22 +5,16 @@ const Logo = ({title}) => {
   const titleA = data[0];
   const titleB = data[1];
   return (
-    <div className="topbar-left">
-    <div className="text-center">
-      <p>
-        <a href="" className="logo">
-          {' '}
-          <span>{titleA}</span>{' '}
-        </a>
-      </p>
-      <p>
-        <a href="" className="logo">
-          {' '}
-          <span>{titleB}</span>{' '}
-        </a>
-      </p>
-    </div>
-  </div>)
+
+     <div className="topbar-left">
+                    <div className="text-center">
+                        <p className="logo"> <span>{titleA}</span> </p>
+                        <p className="logo"><span>{titleB}</span></p>
+
+                       
+                    </div>
+                </div>
+   )
 }
 
 const SearchBox = () =>{
