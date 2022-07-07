@@ -1,0 +1,114 @@
+
+
+.container-calendar {
+    background: #000;
+    padding: 15px;
+   /* width:280px;*/
+    margin: 0 auto;
+    overflow: auto;
+    overflow-x:hidden;
+    margin-left:-20px;
+    border: 1px solid #008E8A;
+    border-radius:5px;
+}
+
+.button-container-calendar span {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    
+    color: #fff;
+    
+    
+    padding: 5px 10px;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-calendar td, .table-calendar th {
+    padding: 5px;
+    
+    text-align: center;
+    vertical-align: top;
+    color:#fff;
+}
+
+.date-picker.selected {
+    font-weight: bold;
+   
+    background:#008E8A;
+    border-radius:80px;
+}
+
+.date-picker.selected span {
+    border-bottom: 2px solid currentColor;
+}
+
+/* sunday */
+.date-picker:nth-child(1) {
+  color: red;
+}
+
+/* friday */
+.date-picker:nth-child(6) {
+  color: green;
+}
+
+#monthAndYear {
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+
+td,th, tr{
+    color:#fff;
+}
+
+@media (min-width: 1280px) {
+  .container-calendar{
+    width:280px;
+    
+  }
+
+  
+
+}
+@media (max-width: 680px) {
+  .container-calendar{
+   
+    width:80%;
+    overflow: auto;
+    overflow-x:hidden;
+    /*margin-left:30px;*/
+    margin:20px;
+    padding:10px;
+     margin-left:40px;
+  }
+
+  
+
+}
+
+
+.fix-margin{
+    margin-top:-40px
+}

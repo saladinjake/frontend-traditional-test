@@ -30,15 +30,16 @@
   font-size:10px;
 }
 .dot1{
-	background: red;
+
+  background: yellow;
 }
 
 .dot2{
-	background: yellow;
+	 background: pink;
 }
 
 .dot3{
-	background: purple;
+	background: blue;
 }
 
 

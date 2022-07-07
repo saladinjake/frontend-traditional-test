@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 	  .datum(sine)
 	  .attr('d', line.interpolate('basis'))
 	  .attr({
-	    'stroke': 'red',
+	    'stroke': 'yellow',
 	    'stroke-width': 1,
 	    fill: 'none'
 	  });
@@ -123,6 +123,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
 	  .classed('axis', true)
 	  .call(yAxis);
 
+
+	
+
+
+  
 
 
 
