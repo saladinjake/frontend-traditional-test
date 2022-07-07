@@ -107,6 +107,7 @@
   },
   "dependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "d3": "^7.6.1",
     "gh-pages": "^4.0.0"
   }
 }
