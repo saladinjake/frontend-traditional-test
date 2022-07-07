@@ -27,33 +27,36 @@ const WelcomeMessage =() =>{
   )
 }
 
+const Switch = ({title, time}) =>{
+  return (
+
+
+      <div className="two-colsets">
+        <label className="switcher">
+          <input className="switch-itch" type="checkbox" />
+          <span className="slider"></span>
+        </label>
+        <div className="list-columnset">
+          <p className="margin-space">{title}Training session</p>
+          <p className="margin-space">{time}10.00am</p>
+        </div>
+      </div>
+
+  )
+}
+
 const Reminders = () =>{
   return (
     <div className="col-md-4 ">
                 <div className="card-box">
                   <h4>Reminder</h4>
 
-                  <div className="two-colsets">
-                    <label className="switcher">
-                      <input className="switch-itch" type="checkbox" />
-                      <span className="slider"></span>
-                    </label>
-                    <div className="list-columnset">
-                      <p className="margin-space">Training session</p>
-                      <p className="margin-space">10.00am</p>
-                    </div>
-                  </div>
 
-                  <div className="two-colsets">
-                    <label className="switcher">
-                      <input className="switch-itch" type="checkbox" />
-                      <span className="slider"></span>
-                    </label>
-                    <div className="list-columnset">
-                      <p className="margin-space">Team meetings</p>
-                      <p className="margin-space">1.00pm</p>
-                    </div>
-                  </div>
+                  <Switch time="10.00 am" title="Training session" />
+
+                  <Switch time="1.00 pm" title="Team meetings" />
+
+                  
 
                   <button className="btn btn-md btn-dark centered center"><b>+ Add new</b></button>
                 </div>
